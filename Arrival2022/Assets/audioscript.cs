@@ -9,7 +9,7 @@ public class audioscript : MonoBehaviour
     void Start()
     {
         myAudio = GetComponent<AudioSource>();
-        myAudio.PlayDelayed(15);
+        myAudio.PlayDelayed(25);
     }
 
     // Update is called once per frame
