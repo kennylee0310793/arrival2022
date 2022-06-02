@@ -25,7 +25,8 @@ public class hit_sound : MonoBehaviour
         {
             audio.Play();
             hit_counter++;
-            if (hit_counter == 3)
+            print(hit_counter);
+            if (hit_counter >= 3)
                 SceneManager.LoadScene("Scene2");
         }
     }
